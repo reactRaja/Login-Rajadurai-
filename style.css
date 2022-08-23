@@ -1,0 +1,47 @@
+.container {
+  width: 750px;
+  border-radius: 5px;
+  height: 350px;
+  background-color: lightblue;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+h1 {
+  text-align: center;
+  color: green;
+}
+.input {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 650px;
+  height: 30px;
+  border-radius: 5px;
+}
+::placeholder {
+  color: rgb(22, 121, 22);
+  opacity: 1;
+  margin-left: 15px;
+}
+
+.submit {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  color: green;
+}
+.newuser {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.row {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
