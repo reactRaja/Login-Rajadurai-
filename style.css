@@ -29,6 +29,17 @@ h1 {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  /* // margin-top: -50px; */
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  color: green;
+}
+.logout {
+  display: block;
+  margin-right: -74;
+  margin-left: auto;
+  margin-top: -50px;
   width: 150px;
   height: 30px;
   border-radius: 5px;
@@ -45,3 +56,134 @@ h1 {
   margin-left: auto;
   text-align: center;
 }
+.aboutimg {
+  width: 250px;
+  height: 250px;
+}
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: blanchedalmond;
+  max-width: 100%;
+  max-height: 100%;
+}
+.aboutContent {
+  display: flex;
+  margin-left: 10px;
+  width: 250;
+  height: 250;
+}
+
+/* gallery */
+.column {
+  float: left;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.row::after {
+  clear: both;
+  display: table;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 3;
+  grid-template-rows: 3 80px 200px;
+  gap: 10px;
+  background-color: #98d9f5;
+  padding: 10px;
+}
+.imgGallery {
+  display: flex;
+  width: "30%";
+  height: "250px";
+}
+
+/* contact us */
+
+.containerContact {
+  display: block;
+
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(103, 199, 233);
+  width: 750px;
+  height: 400px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.inputContact {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 650px;
+  height: 30px;
+  border-radius: 5px;
+}
+.inputContactMessage {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 650px;
+  height: 150px;
+  border-radius: 5px;
+}
+.submitContact {
+  margin-top: 30px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 650px;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(92, 92, 224);
+}
+.labelTextContact {
+  display: block;
+  padding-top: 3px;
+  margin-left: 47px;
+  margin-top: 6px;
+  color: green;
+}
+/* new home */
+
+header {
+  display: flex;
+  flex-direction: row;
+  float: none;
+  font-size: 20px;
+  padding: 20px;
+  background-color: aqua;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.ulHome {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.liHome {
+  float: left;
+}
+
+.liHome a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.liHome a:hover:not(.active) {
+  background-color: #111;
+}
+
+/* . liHome active {
+  background-color: green;
+} */
